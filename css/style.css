@@ -801,6 +801,9 @@ color: #8E8F99;
 .modal-textarea:focus {
   border-color: var(--aktiv-heder--);
 }
+.policy-text-link{
+  color: var(--primary-brand-color--);
+}
 .policy {
   margin-bottom: 24px;
 }
