@@ -473,15 +473,17 @@ header {
   height: 80px;
   box-sizing: border-box;
   margin: 0;
+  margin-left: 120px;
+  margin-right: 80px;
   padding: 0;
   border: 0;
 }
 .container-footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: baseline;
-  gap: 120px;
-  margin-left: 156px;
+  padding: 0;
+  
 }
 .footer-social-titel {
   font-weight: 500;
@@ -504,7 +506,9 @@ header {
   color: #f4f4fd;
   margin-bottom: 16px;
 }
-
+.subscribe{
+  width: 453px;
+}
 .titel-subscribe {
   margin-bottom: 16px;
 }
